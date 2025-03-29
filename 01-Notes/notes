@@ -1,0 +1,52 @@
+//                                REACT APP NOTES
+
+
+
+// What is React?
+// React is a JavaScript library used to build user interfaces (UI) for web applications, primarily focusing on the frontend.
+
+// What is a Library?
+// A library is a collection of pre-written code that provides various functionalities, which developers can use by invoking the available methods.
+
+// React is Component-Based
+// React follows a component-based architecture, meaning:
+
+// Components are reusable pieces of code that define parts of the UI.
+
+// A component is essentially a function that returns JSX (HTML-like syntax).
+
+// It provides custom HTML elements that React manages internally.
+
+// React vs JavaScript
+// Feature	React	JavaScript
+// Approach	Declarative (describes UI state)	Imperative (step-by-step execution)
+// Reusability	Uses components	Requires manual structuring
+// Efficiency	Virtual DOM improves performance	Direct DOM manipulation
+// What is SPA (Single Page Application)?
+// A Single Page Application (SPA) loads a single HTML page and dynamically updates content without refreshing the page. This improves:
+// ✅ Speed – No full-page reloads
+// ✅ User Experience – Smooth and fast interactions
+// ✅ Efficiency – Data fetching happens asynchronously
+
+// React, along with Angular and Vue.js, is commonly used to build SPAs.
+
+// Why Use React?
+// ✔ Reusability – Components can be reused across the project.
+// ✔ Readability – Code is structured and easier to understand.
+// ✔ Maintainability – Easier to manage and scale projects.
+
+// HOW TO INSTALL REACT JS 
+// 1. Step1: Install node js
+// 2. Step2: VS Code
+// 3. Step3: Create a new Folder -> ReactFolio
+// 4. Step4: Change directory to ReactFolio
+// 5. Step5: npx create-react-app demoshopapp
+// 6. Step6: change directory to demoshopapp
+// 7. Step7: npm start
+
+// 8️⃣ Stop the server: Press Ctrl + C in the terminal.
+
+// Understanding React Project Structure
+// 📂 package.json – Manages dependencies, scripts, and versioning.
+// 📂 src/ – Contains core files like App.js, index.js, and styles.
+// 📂 public/ – Includes index.html, where React mounts the app (root element).
