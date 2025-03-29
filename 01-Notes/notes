@@ -35,7 +35,8 @@
 // ✔ Readability – Code is structured and easier to understand.
 // ✔ Maintainability – Easier to manage and scale projects.
 
-// HOW TO INSTALL REACT JS 
+              // HOW TO INSTALL REACT JS 
+
 // 1. Step1: Install node js
 // 2. Step2: VS Code
 // 3. Step3: Create a new Folder -> ReactFolio
@@ -50,3 +51,18 @@
 // 📂 package.json – Manages dependencies, scripts, and versioning.
 // 📂 src/ – Contains core files like App.js, index.js, and styles.
 // 📂 public/ – Includes index.html, where React mounts the app (root element).
+
+
+                   //   How React Starts Working (Simple Steps)
+
+
+//  1. Execute index.js first – This is the entry point of the React application.
+
+//  2. Fetch the root element – The <div id="root"></div> is taken from index.html.
+
+//  3. Create a React root – ReactDOM.createRoot(rootElement) converts it into a React-managed root.
+
+//  4. Render the App component – The render function displays App.js inside the root.
+
+//  5. Write UI in App.js – This file contains the main JSX code for the user interface.
+
