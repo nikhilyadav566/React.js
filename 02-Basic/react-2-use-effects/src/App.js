@@ -1,14 +1,13 @@
 import './App.css';
-import Item from  'components/Item'
-
+import Item from './components/Item';
 
 function App() {
   return (
     <div>
-      <Item></Item>
-      <div className="App"> Hello Nikhil </div>
+      <Item />
+      <div className="App">Hello Nikhil</div>
     </div>
-    
   );
 }
 
+export default App;

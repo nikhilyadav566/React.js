@@ -1,5 +1,7 @@
+import './Item.css'
+
 function Item() {
-    return(<p>Nikyad</p>)
+    return(<p className='nik'>Nikyad</p>)
 
 }
 
