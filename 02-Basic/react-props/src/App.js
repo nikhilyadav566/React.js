@@ -4,7 +4,8 @@ import ItemDetails from './components/ItemDetails';
 
 
 function App() {
-  return (
+  const itemFourthName = "Wheat";  // we can also type like this . Store the value in a variable
+  return(
     <div>
       <Item name = "Apple"></Item>
       <ItemDetails price="120/kg" color="Red" brand="Kashmiri"></ItemDetails>
@@ -12,9 +13,11 @@ function App() {
       <ItemDetails price="100/kg" color="Yellow" brand="Rajsthani"></ItemDetails>
       <Item name = "Rice"></Item>
       <ItemDetails price="80/kg" color="White" brand="Tinku"></ItemDetails>
+      <Item name = {itemFourthName}></Item>    {/*Passing the value stored in itemFourthName*/}
+      <ItemDetails price="45/kg" color="White" brand="Aashirwad"></ItemDetails>
      
     </div>
-  );
+    );
 }
 
 export default App;

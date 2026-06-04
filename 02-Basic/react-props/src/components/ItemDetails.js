@@ -7,7 +7,7 @@ function ItemDetails(props){
 
     return(
         <>
-        <span>"price: "{price}</span>
+        <span>price:{price}</span>
         <span>color:{color}</span>
         <span>brand:{brand}</span>
         </>
@@ -15,3 +15,18 @@ function ItemDetails(props){
 }
 
 export default ItemDetails
+
+
+// Instead of it we can type like this also 
+
+// function ItemDetails({ price, color, brand }) {
+//     return (
+//         <>
+//             <span>price: {price}</span>
+//             <span>color: {color}</span>
+//             <span>brand: {brand}</span>
+//         </>
+//     );
+// }
+
+// export default ItemDetails;
